@@ -13,7 +13,7 @@ type TechnologiesType = {
     title: string
 }
 
-type StudentsType = {
+ export type StudentsType = {
     id: number
     name: string
     age: number
@@ -22,7 +22,7 @@ type StudentsType = {
     technologies: Array<TechnologiesType>
 }
 
-const student: StudentsType = {
+export const student: StudentsType = {
     id: 1,
     name: "Dimych",
     age: 32,
